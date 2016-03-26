@@ -1,4 +1,4 @@
 FROM linuxbrew/linuxbrew
 MAINTAINER Piotr Gaczkowski <doomhammerng@gmail.com>
 
-RUN brew install gawk gcc --with-glibc
+RUN brew tap homebrew/dupes && brew install rust
